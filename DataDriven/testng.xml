@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QuickHire Suite">
+	<test name="QuickHire Test2">
+		<classes>
+			<class name="org.automation.testcases.TC_002_Validate_Creating_New_Hire_Altres"/>
+			<class name="org.automation.testcases.TC3"/>
+		</classes>
+	</test>
+	</suite>

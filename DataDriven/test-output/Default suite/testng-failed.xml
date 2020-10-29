@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+  <test name="Default test(failed)">
     <classes>
-      <class name="org.automation.testingworld.testcases.TC_001_Validate_Login">
+      <class name="org.automation.testcases.TC_002_Validate_Creating_New_Hire_Altres">
         <methods>
-          <include name="closeDriverInstance"/>
-          <include name="execute"/>
           <include name="initiateDriverInstance"/>
+          <include name="closeDriverInstance"/>
+          <include name="setCustomConfig"/>
         </methods>
-      </class> <!-- org.automation.testingworld.testcases.TC_001_Validate_Login -->
+      </class> <!-- org.automation.testcases.TC_002_Validate_Creating_New_Hire_Altres -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
