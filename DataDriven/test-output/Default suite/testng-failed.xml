@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.automation.testcases.TC_002_Validate_Creating_New_Hire_Altres">
+      <class name="org.automation.testcases.TC_004_Validate_Select_Customer_when_no_customers_in_list">
         <methods>
           <include name="initiateDriverInstance"/>
-          <include name="closeDriverInstance"/>
-          <include name="setCustomConfig"/>
+          <include name="endReport"/>
+          <include name="validateSelectCustomerScreen"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- org.automation.testcases.TC_002_Validate_Creating_New_Hire_Altres -->
+      </class> <!-- org.automation.testcases.TC_004_Validate_Select_Customer_when_no_customers_in_list -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

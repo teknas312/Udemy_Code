@@ -2,8 +2,15 @@
 <suite name="QuickHire Suite">
 	<test name="QuickHire Test2">
 		<classes>
-			<class name="org.automation.testcases.TC_002_Validate_Creating_New_Hire_Altres"/>
-			<class name="org.automation.testcases.TC3"/>
+			<class
+				name="org.automation.testcases.TC_002_Validate_Creating_New_Hire_Altres" />
+			<class
+				name="org.automation.testcases.TC_003_Validate_filters_displayed_on_new_hire_list" />
+			<class
+				name="org.automation.testcases.TC_004_Validate_Select_Customer_when_no_customers_in_list" />
+				<class
+				name="org.automation.testcases.TC_005_Validate_fields_Add_New_Hire" />
+
 		</classes>
 	</test>
-	</suite>
+</suite>

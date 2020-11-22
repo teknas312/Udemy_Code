@@ -141,6 +141,18 @@ public class BaseClass
 		s1.selectByVisibleText(text);	
 	}
 	
+	public void XpathElementIsDisplayed(String xpath) throws IOException
+	{
+		boolean status=we.findElement(By.xpath(xpath)).isDisplayed();
+		System.out.println("Status is:"+status);
+		if(status==true)
+		{
+			System.out.println("Required element is displayed:"+xpath);
+			test.log(Status.PASS,"Required element is present:"+xpath);
+			
+		}
+	}
+	
 	public static String getScreenshot(WebDriver driver, String screenshotName) throws IOException 
 	{
 		  String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());

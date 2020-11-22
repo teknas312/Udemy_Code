@@ -7,5 +7,6 @@ public class Constants
 	public static final String reportPath =System.getProperty("user.dir")+"\\ALTRES\\Result\\Graphical Reporting\\HTML\\";
 	public static final String snapshotsPath = System.getProperty("user.dir")+"\\ALTRES\\Result\\Graphical Reporting\\Snapshots\\";
 	public static String Resultfilename ="";
-
+	
 }
+
