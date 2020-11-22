@@ -26,6 +26,7 @@ public class TC_001_Validate_Login extends BaseClass
 //		login.enterPassword("96Kshatriya");
 //		login.clickSignin();
 		//ExtentReportsWithTestNG.setUp();
+		//New Comment
 		ExtentReportsWithTestNG.reportGenerationMethod("TC_001_Validate_Login", "TC_001_Validate_Login");
 		//ExtentReportsWithTestNG.endReport();
 		LoginPage login=new LoginPage(we);
