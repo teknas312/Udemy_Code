@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 
 public class TakeScreenshot extends BaseClass
 {
-	//For taking screenshot
+	//For taking screenshots
 	public static void takesScreenshot(WebDriver driver,String screenshotname)
 	{
 		TakesScreenshot ts=(TakesScreenshot)driver;
